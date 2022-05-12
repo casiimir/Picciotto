@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.wrapper {
+  width: 400px;
+
+  form {
+    @include flex(column, center, center, 10px);
+
+    width: 200px;
+    padding: 25px 10px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.45);
+    background-color: rgba(37, 223, 180, 0.194);
+    border-radius: 6px;
+  }
+}

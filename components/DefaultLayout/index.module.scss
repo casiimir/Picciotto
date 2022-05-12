@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.wrapper {
+  h1 {
+    color: $primary_color;
+  }
+
+  .nav {
+    padding: 10px 40px;
+    border-bottom: 2px solid $grey;
+
+    a {
+      @include flex();
+    }
+  }
+
+  .footer {
+    height: 50px;
+  }
+}
